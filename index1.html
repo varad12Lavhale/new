@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(img/random.jpeg)
+    }
+
+    .header {
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        top: 15px;
+        left: 60px;
+
+
+
+    }
+
+    .left div {
+        line-height: 22px;
+        text-align: center;
+        font-size: 26px;
+        color: red;
+    }
+
+    .middle {
+        border: 2px solid yellow;
+        display: block;
+        width: 50%;
+        margin: 25px auto;
+
+
+    }
+
+    .right {
+        border: 2px solid blue;
+        position: absolute;
+        right: 32px;
+        top: 25px;
+        display: inline-block;
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 10px 15px;
+
+
+        text-decoration: none;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(221, 141, 141);
+        text-decoration: underline;
+    }
+
+    .left img {
+        display: block;
+        height: 86px;
+        width: 86px;
+        margin: 10px auto;
+        margin-left: 20px;
+    }
+
+    .logo {
+        font-size: 30px;
+        color: red;
+        padding: 30px;
+        text-decoration: underline;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+
+    .button {
+        padding: 15px 10px;
+        border: 2px solid blue;
+
+    }
+
+    .btn {
+        border: 2px solid yellow;
+        font-size: 25px;
+    }
+
+    .btn:hover {
+        background-color: rgb(224, 166, 166);
+    }
+
+    .container {
+        border: 3px solid greenyellow;
+        padding: 30px 134px;
+        margin: 160px 20px;
+        width: 32%;
+        border-radius: 23px;
+        height: 307px;
+    }
+
+    .group input {
+        text-align: center;
+        font-size: 28px;
+        margin: 5px auto;
+    }
+    .head{
+        color: rgb(58, 147, 225);
+    }
+    .butt{
+        text-align: center;
+        font-size: 28px;
+        margin: 5px auto;
+        display: block;
+        width: 400px;
+        margin: 20px auto;
+       
+       
+
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/92552.jpg" alt="">
+            <div>Varad Fitness</div>
+        </div>
+
+        <div class="middle">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#"> Fitness Calculator</a></li>
+                <li> <a href="#"> Contact Us</a></li>
+
+            </ul>
+        </div>
+
+        <div class="right">
+            <div class="button">
+                <button class="btn">submit</button>
+
+                <button class="btn"> Contact No.</button>
+            </div>
+
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1 class="head">Joine the Best GYM in Walur</h1>
+        <form action="noaction.php">
+            <div class="group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="group">
+                <input type="text" placeholder="Enter Your Email">
+            </div>
+            <div class="group">
+                <input type="text" placeholder="Enter Your password">
+            </div>
+            <div class="group">
+                <input type="text" placeholder="Enter Your City Name">
+            </div>
+            <button class="butt">submited</button>
+        </form>
+    </div>
+</body>
+
+</html>
